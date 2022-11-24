@@ -16,7 +16,7 @@ export const InputContainer = styled.div`
     input {
         width: 100%;
         height: 75px;
-        background-color: #AAAAFF;
+        background-color: #FFC0CB;
         border: 0;
         display: flex;
         flex-direction: column;
@@ -24,6 +24,11 @@ export const InputContainer = styled.div`
         padding: 0 10px;
         font-size: 24px;
         font-family: 'Roboto';
-        color: #FFFFFF;
+        color: #FF6347;
+        border-width: 2px;
+        border-color: #FFC0CB;
+        border-style: solid;
+        display: inline-block;
+        border-radius: 4px;
     }
 `
